@@ -8,7 +8,7 @@ dotenv.config();
 const cors = require('cors')
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-
+const authRouter = require('./routes/auth.js')
 const app = express();
 
 mongoose.connect(process.env.DB_CONNECT,(err)=>{
@@ -25,7 +25,7 @@ app.use(cors())
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.use('/authentication', authRouter)
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 

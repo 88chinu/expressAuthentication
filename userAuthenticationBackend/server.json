@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "password": "hashedpassword1",
+      "date": "2024-11-07T08:15:00Z"
+    },
+    {
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.org",
+      "password": "hashedpassword2",
+      "date": "2024-10-30T12:45:00Z"
+    },
+    {
+      "name": "Charlie Davis",
+      "email": "charlie.davis@example.net",
+      "password": "hashedpassword3",
+      "date": "2024-09-22T09:30:00Z"
+    },
+    {
+      "name": "Diana Prince",
+      "email": "diana.prince@example.com",
+      "password": "hashedpassword4",
+      "date": "2024-08-15T16:20:00Z"
+    }
+  ]  
